@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel-hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--start-all-menus-->
+    <div class="all-menus">
+      <!--starts-breakfast-dishes-->
+      <div class="breakfast-dishes" id="breakfast-menu">
+        <h2 class="menu-head">Breakfast Menu</h2>
+        <div class="dish">
+          <label for="idlyQty">Idli – Rs.20</label>
+          <input type="number" id="idlyQty" />
+        </div>
+        <div class="dish">
+          <label for="mdosaQty">Masala Dosa – Rs.40 </label>
+          <input type="number" id="mdosaQty" />
+        </div>
+        <div class="dish">
+          <label for="pdosaQty">Plain Dosa – Rs.30 </label>
+          <input type="number" id="pdosaQty" />
+        </div>
+        <div class="dish">
+          <label for="rdosaQty"> Rava Dosa– Rs.35</label>
+          <input type="number" id="rdosaQty" />
+        </div>
+        <div class="dish">
+          <label for="uttapamQty">Uttapam – Rs.40 </label>
+          <input type="number" id="uttapamQty" />
+        </div>
+        <div class="dish">
+          <label for="sandwichQty">Sandwich - Rs.30 </label>
+          <input type="number" id="sandwichQty" />
+        </div>
+        <div class="dish">
+          <label for="pavbhajiQty">Pav Bhaji - Rs.35 </label>
+          <input type="number" id="pavbhajiQty" />
+        </div>
+        <div class="dish">
+          <label for="chanaQty">Chana Bathura – Rs.50 </label>
+          <input type="number" id="chanaQty" />
+        </div>
+        <div class="dish">
+          <label for="pooriQty">Poori – Rs.40</label>
+          <input type="number" id="pooriQty" />
+        </div>
+        <div class="dish">
+          <label for="pavQty">Masala Pav - Rs.45</label>
+          <input type="number" id="pavQty" />
+        </div>
+        <div class="cal-btn">
+          <button id="breakfast-amt-btn">View Price</button>
+        </div>
+        <h3>Total Price: Rs.<span id="total-price-breakfast"></span></h3>
+      </div>
+      <!--ends-breakfast-dishes-->
+      <!--start-lunch-dishes-->
+      <div class="lunch-dishes" id="lunch-menu">
+        <h2 class="menu-head">lunch Menu</h2>
+        <div class="dish">
+          <label for="rotiQty">Tandoori Roti – Rs. 20</label>
+          <input type="number" id="rotiQty" />
+        </div>
+        <div class="dish">
+          <label for="kulchaQty">Butter Kulcha – Rs. 40 </label>
+          <input type="number" id="kulchaQty" />
+        </div>
+        <div class="dish">
+          <label for="pannerQty">Paneer Tikka – Rs. 150 </label>
+          <input type="number" id="pannerQty" />
+        </div>
+        <div class="dish">
+          <label for="kajuQty"> Kaju Masala – Rs. 120</label>
+          <input type="number" id="kajuQty" />
+        </div>
+        <div class="dish">
+          <label for="masalaQty">Masala Rice – Rs. 70 </label>
+          <input type="number" id="masalaQty" />
+        </div>
+        <div class="dish">
+          <label for="palakpannerQty">Palak Paneer – Rs. 130 </label>
+          <input type="number" id="palakpannerQty" />
+        </div>
+        <div class="dish">
+          <label for="friedQty">Fried Rice – Rs. 90</label>
+          <input type="number" id="friedQty" />
+        </div>
+        <div class="dish">
+          <label for="whitericeQty">White Rice – Rs. 30 </label>
+          <input type="number" id="whitericeQty" />
+        </div>
+        <div class="dish">
+          <label for="alooQty">Aloo Paratha – Rs. 100</label>
+          <input type="number" id="alooQty" />
+        </div>
+
+        <div class="dish">
+          <label for="dalQty">Dal Tadka – Rs. 80</label>
+          <input type="number" id="dalQty" />
+        </div>
+        <div class="cal-btn">
+          <button id="lunch-amt-btn">View Price</button>
+        </div>
+        <h3>Total Price: Rs.<span id="total-price-lunch"></span></h3>
+      </div>
+
+      <!--ends-lunch-dishes-->
+
+      <!--start-dinner-dishes-->
+      <div class="dinner-dishes" id="dinner-menu">
+        <h2 class="menu-head">dinner Menu</h2>
+        <div class="dish">
+          <label for="curdriceQty">Curd Rice – Rs. 100</label>
+          <input type="number" id="curdriceQty" />
+        </div>
+        <div class="dish">
+          <label for="jeerariceQty">Jeera Rice – Rs. 80</label>
+          <input type="number" id="jeerariceQty" />
+        </div>
+        <div class="dish">
+          <label for="cocoriceQty">Coconut Rice – Rs. 100 </label>
+          <input type="number" id="cocoriceQty" />
+        </div>
+        <div class="dish">
+          <label for="cocoriceQty"> Kashmiri Pulao – Rs. 120</label>
+          <input type="number" id="kpulaoQty" />
+        </div>
+        <div class="dish">
+          <label for="curryQty">Mix Veg Curry – Rs. 120</label>
+          <input type="number" id="curryQty" />
+        </div>
+        <div class="dish">
+          <label for="naanQty">Butter Naan – Rs. 40</label>
+          <input type="number" id="naanQty" />
+        </div>
+        <div class="dish">
+          <label for="pannermasalaQty">Paneer Butter Masala – Rs. 180 </label>
+          <input type="number" id="pannermasalaQty" />
+        </div>
+        <div class="dish">
+          <label for="bisibelebathQty">Bisibelebath – Rs. 100 </label>
+          <input type="number" id="bisibelebathQty" />
+        </div>
+        <div class="dish">
+          <label for="lemonriceQty">Lemon Rice – Rs. 80</label>
+          <input type="number" id="lemonriceQty" />
+        </div>
+        <div class="dish">
+          <label for="tomatoQty">Tomato Bath – Rs.85</label>
+          <input type="number" id="tomatoQty" />
+        </div>
+        <div class="cal-btn">
+          <button id="dinner-amt-btn">View Price</button>
+        </div>
+        <h3>Total Price: Rs.<span id="total-price-dinner"></span></h3>
+      </div>
+      <button class="breakfast-time">Breakfast</button>
+      <button class="lunch-time">Lunch</button>
+      <button class="dinner-time">Dinner</button>
+    </div>
+    <!--end-all-menus-->
+    <!--ends-dinner-dishes-->
+
+    <script src="app.js"></script>
+  </body>
+</html>
